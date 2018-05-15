@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 const moment = require('moment')
 const axios = require('axios')
 
-const API = 'http://uinames.com/api/?ext&amount=30'
+const API = 'http://uinames.com/api/?ext&amount=100'
 var getDay = (input) =>{
   var day = moment(input, "DD-MM-YYYY").day()
   return day
